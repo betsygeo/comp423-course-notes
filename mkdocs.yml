@@ -6,6 +6,12 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - toc:
+      permalink: true
+      title: Table of Contents
+      permalink_title: Anchor link to this section for reference
+      toc_depth: 3
+
 
 site_name: COMP423 Course Notes
 theme:
@@ -14,6 +20,8 @@ theme:
     - content.code.copy
     - content.code.select
     - content.code.annotate
+    
+  
   extra:
     annotate:
-      json: [.s2]
+      json: true
