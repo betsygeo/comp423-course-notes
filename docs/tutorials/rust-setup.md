@@ -2,6 +2,7 @@
 
 # Setting up a Dev Container for Rust
 * **Primary author**: [Betsy George](https://github.com/betsygeo)
+* **Reviewer**: [Onyi Igwe](https://github.com/igtricia)
 
 # Prerequisites
 
@@ -122,6 +123,7 @@ After building , you manually run the executable file using the code snippet bel
 cargo run
 ```
 
-The key difference between this two is that cargo run is faster and compiles the project all over again irrespective of the previous build. cargo build is mainly used to have access to the executable file. 
+!!! note
+    The key difference between this two is that cargo run is faster and compiles the project all over again irrespective of the previous build. cargo build is mainly used to have access to the executable file.
 
 Congratulations! You have written a program in Rust Programming Language. You can now push your local commits to your repository.
