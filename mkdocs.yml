@@ -1,3 +1,27 @@
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+      title: Table of Contents
+      permalink_title: Anchor link to this section for reference
+      toc_depth: 3
+
+
 site_name: COMP423 Course Notes
 theme:
   name: material
+  features: 
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    
+  
+  extra:
+    annotate:
+      json: true
