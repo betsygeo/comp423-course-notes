@@ -2,6 +2,7 @@
 
 # Setting up a Dev Container for Rust
 * **Primary author**: [Betsy George](https://github.com/betsygeo)
+* **Reviewer**: [Onyi Igwe](https://github.com/igtricia)
 
 # Prerequisites
 
